@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "tophatman__",
+          "id": [1906707254, -884913547, -1392733193, -1125821020],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "ewogICJ0aW1lc3RhbXAiIDogMTcxNjM2NjgwNDkxMCwKICAicHJvZmlsZUlkIiA6ICI3MWE2MGIzNmNiNDE0YTc1YWNmYzkzZjdiY2U1NTVhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb3BoYXRNYW5fXyIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kODU5Y2RhYTBlZWFkMjY4OWY4ZjIxODBkMTVhNmEyMGUzOTcxYWY3YTg4YjY4NDU3MGY3Y2I2ZmY4ZmQ3NTcwIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lN2RmZWExNmRjODNjOTdkZjAxYTEyZmFiYmQxMjE2MzU5YzBjZDBlYTQyZjk5OTliNmU5N2M1ODQ5NjNlOTgwIgogICAgfQogIH0KfQ=="
+            }
+          ]
+        }
+      }
+    },
+    "title": "Tophat Man",
+    "description": "twitch.tv/tophatman_",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "global:root",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "pack": {
+    "pack_format": 41,
+    "description": [
+      {
+        "text": "A simple way to control how long a day lasts in the game\nby ",
+        "color": "white",
+        "bold": false
+      },
+      {
+        "text": "TophatMan__",
+        "color": "#00ff00",
+        "bold": true
+      },
+      {
+        "text": " (",
+        "color": "white",
+        "bold": false
+      },
+      {
+        "text": "twitch.tv/tophatman_",
+        "color": "#9146FF",
+        "bold": false
+      },
+      {
+        "text": ")",
+        "color": "white",
+        "bold": false
+      }
+    ]
+  }
+}
