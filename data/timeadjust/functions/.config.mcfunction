@@ -1,4 +1,5 @@
-tellraw @s {"text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTime Adjustment Datapack Configuration","bold": true,"color": "gold"}
+tellraw @s {"text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
+tellraw @s {"text": "Time Adjustment Datapack Configuration","bold": true,"color": "gold"}
 scoreboard players set #TimeAdjust TimeAdjust.Daytime 20
 scoreboard players operation #TimeAdjust TimeAdjust.Daytime *= #TimeAdjust TimeAdjust.SetTick
 tellraw @s [{"text": "Current Day Length is ","bold": false,"color": "yellow"},{"score":{"name": "#TimeAdjust","objective": "TimeAdjust.Daytime"},"color": "yellow"},{"text": " minutes","bold": false,"color": "yellow"}]
