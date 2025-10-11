@@ -8,3 +8,10 @@
 
 - Fixed version string data storage
 - Fixed name inconsistencies (Day Adjustment - Time Adjustment)
+
+# Release Version 2
+
+### 2.0.0
+
+- Complete overhaul of config menu
+- Removed old time calculations
