@@ -15,3 +15,4 @@
 
 - Complete overhaul of config menu
 - Removed old time calculations
+- Working manual time adjustment
