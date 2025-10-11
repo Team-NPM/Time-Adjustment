@@ -10,7 +10,7 @@
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "global:tophatman__",
+  "parent": "global:the_tophatman",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:tick"
