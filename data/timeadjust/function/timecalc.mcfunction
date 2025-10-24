@@ -1,2 +1,2 @@
-scoreboard players operation #TimeAdjust TimeAdjust.Remainder = #TimeAdjust.TPD TimeAdjust.Total
-scoreboard players operation #TimeAdjust TimeAdjust.Remainder %= #TimeAdjust TimeAdjust.Total
+execute if score TimeAdjust.Total TimeAdjust matches ..19 run function timeadjust:calcfaster
+execute if score TimeAdjust.Total TimeAdjust matches 20.. run function timeadjust:calcslower
