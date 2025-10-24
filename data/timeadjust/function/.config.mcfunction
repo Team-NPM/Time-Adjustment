@@ -3,7 +3,7 @@
   scoreboard players operation TimeAdjust.Display.Hours TimeAdjust = TimeAdjust.Total TimeAdjust
   scoreboard players operation TimeAdjust.Display.Minutes TimeAdjust %= #TimeAdjust.60 TimeAdjust
   scoreboard players operation TimeAdjust.Display.Hours TimeAdjust /= #TimeAdjust.60 TimeAdjust
-  function timeadjust:timecalc
+  function timeadjust:calculations/timecalc
 
 # Clear Chat
   tellraw @s {"text": "\n\n\n\n\n\n\n\n\n"}
