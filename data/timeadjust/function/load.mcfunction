@@ -11,6 +11,6 @@
 execute unless data storage timeadjust:versionstring {branch: "Release", version: "1.0.3"} run function timeadjust:firsttimesetup
 
 # First time calculations
-  function timeadjust:timecalc
+  function timeadjust:calculations/timecalc
 
 function timeadjust:tick
