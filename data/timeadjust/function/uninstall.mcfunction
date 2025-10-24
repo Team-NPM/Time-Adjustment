@@ -1,8 +1,6 @@
 schedule clear timeadjust:tick
-scoreboard objectives remove TimeAdjust.Counter
-scoreboard objectives remove TimeAdjust.Daytime
+scoreboard objectives remove TimeAdjust
 scoreboard objectives remove TimeAdjust.DoDaylightCycle
-scoreboard objectives remove TimeAdjust.SetTick
 data remove storage timeadjust versionstring
 gamerule doDaylightCycle true
 tellraw @a [{"text": "Time Adjustment","bold": true,"color": "yellow"},{"text": " has been ","bold": false,"color": "white"},{"text": "uninstalled","bold": false,"color": "red"}]

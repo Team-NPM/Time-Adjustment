@@ -1,2 +1,2 @@
-scoreboard players set #TimeAdjust TimeAdjust.Total 144
+scoreboard players set TimeAdjust.Total TimeAdjust 144
 function timeadjust:.config

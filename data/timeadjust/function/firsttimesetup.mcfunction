@@ -1,5 +1,5 @@
 execute store result score #TimeAdjust TimeAdjust.DoDaylightCycle run gamerule doDaylightCycle
-scoreboard players set #TimeAdjust TimeAdjust.Total 20
+scoreboard players set TimeAdjust.Total TimeAdjust 20
 data merge storage timeadjust:versionstring {branch: "Release", version: "1.0.3"}
 tellraw @a [{"text": "Time Adjustment","bold": true,"color": "yellow"},{"text": " by ","color": "white","bold": false},{"text": "The_TophatMan","color": "#00ff00","bold": true},{"text": " has been installed.","bold": false,"color": "white"}]
 
