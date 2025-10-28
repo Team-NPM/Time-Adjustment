@@ -10,3 +10,6 @@
 #? Leap ticks are calculated by finding the remainder when 20 is divided by the length of the day. 
   scoreboard players set TimeAdjust.LeapTicks TimeAdjust 20
   scoreboard players operation TimeAdjust.LeapTicks TimeAdjust %= TimeAdjust.Total TimeAdjust
+
+# Clear old leap ticks
+  scoreboard players set TimeAdjust.LeapTick TimeAdjust 0

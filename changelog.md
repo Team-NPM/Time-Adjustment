@@ -25,5 +25,6 @@
 - Removed 1/10 preset
 - Added 40 minutes preset
 - Added 12 hours preset
-- Fixed math for leap ticks for faste day cycles
+- Fixed math for leap ticks for faster day cycles
 - No branching for scheduling tick in tick
+- Fixed math for leap ticks for slower day cycles
