@@ -5,10 +5,8 @@
   scoreboard objectives add TimeAdjust dummy
   #? The number 60 for calculating the display time in the config
   scoreboard players set #TimeAdjust.60 TimeAdjust 60
-  #! The number 20. Only used in calculating slower day cycle. Possibly obselete
+  #? The number 20 for calculating game ticks per day ticks for slower daylight cycles
   scoreboard players set #TimeAdjust.20 TimeAdjust 20
-  #! The number of ticks per day. Possbily obselete
-  scoreboard players set #TimeAdjust.Default.TPD TimeAdjust 24000
 
 ## First time setup if fresh install/update
   execute unless data storage timeadjust {branch: "Release", version: "2.0.1"} run function timeadjust:firsttimesetup
