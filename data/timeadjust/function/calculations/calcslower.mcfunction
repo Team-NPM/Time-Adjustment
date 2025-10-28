@@ -4,9 +4,11 @@
   scoreboard players operation TimeAdjust.Divide.TPD TimeAdjust *= #TimeAdjust.20 TimeAdjust
 
 # Calculate how many game ticks pass for each day tick
-  scoreboard players operation TimeAdjust.TPT TimeAdjust = TimeAdjust.Divide.TPD TimeAdjust
-  scoreboard players operation TimeAdjust.TPT TimeAdjust /= #TimeAdjust.Default.TPD TimeAdjust
+  scoreboard players operation TimeAdjust.TpT TimeAdjust = TimeAdjust.Divide.TPD TimeAdjust
+  scoreboard players operation TimeAdjust.TpT TimeAdjust /= #TimeAdjust.Default.TPD TimeAdjust
 
 # Calculate the leap tick
+  scoreboard players operation TimeAdjust.Divide.Remainder TimeAdjust = #TimeAdjust.Default.TPD TimeAdjust
+  scoreboard players operation TimeAdjust.Divide.Remainder TimeAdjust %= TimeAdjust.Divide.TPD TimeAdjust
   scoreboard players operation TimeAdjust.Remainder TimeAdjust = #TimeAdjust.Default.TPD TimeAdjust
-  scoreboard players operation TimeAdjust.Remainder TimeAdjust %= TimeAdjust.Divide.TPD TimeAdjust
+  scoreboard players operation TimeAdjust.Remainder TimeAdjust /= TimeAdjust.Divide.Remainder TimeAdjust
