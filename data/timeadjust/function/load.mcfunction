@@ -1,16 +1,20 @@
-# Boolean. Replacement for gamerule
+## Boolean. Replacement for gamerule
   scoreboard objectives add TimeAdjust.DoDaylightCycle dummy
 
-# New scoreboard objective stuff
+## New scoreboard objective stuff
   scoreboard objectives add TimeAdjust dummy
+  #? The number 60 for calculating the display time in the config
   scoreboard players set #TimeAdjust.60 TimeAdjust 60
+  #! The number 20. Only used in calculating slower day cycle. Possibly obselete
   scoreboard players set #TimeAdjust.20 TimeAdjust 20
+  #! The number of ticks per day. Possbily obselete
   scoreboard players set #TimeAdjust.Default.TPD TimeAdjust 24000
-  scoreboard players set #TimeAdjust.Default.TPM TimeAdjust 1200
 
-execute unless data storage timeadjust:versionstring {branch: "Release", version: "1.0.3"} run function timeadjust:firsttimesetup
+## First time setup if fresh install/update
+  execute unless data storage timeadjust {branch: "Release", version: "2.0.1"} run function timeadjust:firsttimesetup
 
-# First time calculations
+## Make sure calculations are up to date
   function timeadjust:calculations/timecalc
 
-function timeadjust:tick
+## Begin ticking
+  execute if score #TimeAdjust TimeAdjust.DoDaylightCycle matches 1 run schedule function timeadjust:tick 1t replace

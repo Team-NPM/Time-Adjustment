@@ -1,11 +1,12 @@
-# Calculate ticks per day
-  scoreboard players operation TimeAdjust.Divide.TPD TimeAdjust = #TimeAdjust.Default.TPM TimeAdjust
-  scoreboard players operation TimeAdjust.Divide.TPD TimeAdjust *= TimeAdjust.Total TimeAdjust
+## Calculate information for a quicker daylight cycle (<20 minutes)
+#? The default way to calculate this is 24000/1200x, where 24000 is the number of ticks in a day, 1200 the number of ticks per minute, and x the number of minutes per day. Simplifying this down becomes 20/x. X is TimeAdjust.Total
 
 # Calculate ticks per tick
-  scoreboard players operation TimeAdjust.TPT TimeAdjust = #TimeAdjust.Default.TPD TimeAdjust
-  scoreboard players operation TimeAdjust.TPT TimeAdjust /= TimeAdjust.Divide.TPD TimeAdjust
+#? For a faster daylight cycle, TpT is number of day ticks per game tick
+  scoreboard players set TimeAdjust.TpT TimeAdjust 20
+  scoreboard players operation TimeAdjust.TpT TimeAdjust /= TimeAdjust.Total TimeAdjust
 
-# Calculate remainder ticks
-  scoreboard players operation TimeAdjust.Remainder TimeAdjust = #TimeAdjust.Default.TPD TimeAdjust
-  scoreboard players operation TimeAdjust.Remainder TimeAdjust %= TimeAdjust.Divide.TPD TimeAdjust
+# Calculate leap ticks
+#? Leap ticks are calculated by finding the remainder when 20 is divided by the length of the day. 
+  scoreboard players set TimeAdjust.LeapTicks TimeAdjust 20
+  scoreboard players operation TimeAdjust.LeapTicks TimeAdjust %= TimeAdjust.Total TimeAdjust
