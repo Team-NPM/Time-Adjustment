@@ -1,2 +1,2 @@
 time add 1t
-scoreboard players set TimeAdjust.Tick TimeAdjust 0
+scoreboard players operation TimeAdjust.Tick TimeAdjust -= TimeAdjust.Total TimeAdjust
