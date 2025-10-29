@@ -28,3 +28,8 @@
 - Fixed math for leap ticks for faster day cycles
 - No branching for scheduling tick in tick
 - Fixed math for leap ticks for slower day cycles
+
+### 2.0.2
+
+- Added config namespace
+- Added easy command to call upon timeadjust config (/function config:timeadjust)
