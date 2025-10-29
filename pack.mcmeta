@@ -1,6 +1,9 @@
 {
   "pack": {
     "pack_format": 48,
+    "supported_formats": [48,88],
+    "min_format": 48,
+    "max_format": 71,
     "description": [
       {
         "text": "A simple way to control how long a day lasts in the game\nby ",
