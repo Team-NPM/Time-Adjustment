@@ -47,3 +47,4 @@
 ### 2.0.4
 
 - Fixed no auto-load on version <1.21
+- Fixed no config:timeadjust on version <1.21
