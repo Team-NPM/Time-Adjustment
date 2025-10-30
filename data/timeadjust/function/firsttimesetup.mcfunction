@@ -8,7 +8,7 @@
   execute unless score TimeAdjust.AllowView TimeAdjust matches 0..1 run scoreboard players set TimeAdjust.AllowView TimeAdjust 1
 
 # Save version information to storage
-  data merge storage timeadjust {branch: "Release", version: "2.0.3"}
+  data merge storage timeadjust {branch: "Release", version: "2.0.4"}
 
 # Inform players of installation
 
