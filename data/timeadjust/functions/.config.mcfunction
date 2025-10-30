@@ -65,9 +65,6 @@
   "clickEvent": {\
   "action": "run_command",\
   "value": "/function timeadjust:config/enabledaylightcycle"\
-  }, click_event: {\
-  "action": "run_command",\
-  "command": "/function timeadjust:config/enabledaylightcycle"\
   }\
   },\
   {\
@@ -89,9 +86,6 @@ execute if score #TimeAdjust TimeAdjust.DoDaylightCycle matches 1 run tellraw @s
     "clickEvent": {\
       "action": "run_command",\
       "value": "/function timeadjust:config/disabledaylightcycle"\
-    }, click_event: {\
-      "action": "run_command",\
-      "command": "/function timeadjust:config/disabledaylightcycle"\
     }\
   },\
   {\
@@ -115,10 +109,6 @@ execute if score TimeAdjust.AllowView TimeAdjust matches 0 run tellraw @s [\
     "clickEvent": {\
       "action": "run_command",\
       "value": "/function timeadjust:config/enableview"\
-    },\
-    "click_event": {\
-      "action": "run_command",\
-      "command": "/function timeadjust:config/enableview"\
     }\
   },\
   {\
@@ -140,10 +130,6 @@ execute if score TimeAdjust.AllowView TimeAdjust matches 1 run tellraw @s [\
     "clickEvent": {\
       "action": "run_command",\
       "value": "/function timeadjust:config/disableview"\
-    },\
-    "click_event": {\
-      "action": "run_command",\
-      "command": "/function timeadjust:config/disableview"\
     }\
   },\
   {\
@@ -177,9 +163,6 @@ execute if score TimeAdjust.Total TimeAdjust matches 20 run tellraw @s [\
     "clickEvent": {\
       "action": "run_command",\
       "value": "/function timeadjust:config/preset1"\
-    }, click_event: {\
-      "action": "run_command",\
-      "command": "/function timeadjust:config/preset1"\
     }\
   },\
   {\
@@ -194,9 +177,6 @@ execute if score TimeAdjust.Total TimeAdjust matches 20 run tellraw @s [\
     "clickEvent": {\
       "action": "run_command",\
       "value": "/function timeadjust:config/preset2"\
-    }, click_event: {\
-      "action": "run_command",\
-      "command": "/function timeadjust:config/preset2"\
     }\
   },\
   {\
@@ -211,9 +191,6 @@ execute if score TimeAdjust.Total TimeAdjust matches 20 run tellraw @s [\
     "clickEvent": {\
       "action": "run_command",\
       "value": "/function timeadjust:config/preset3"\
-    }, click_event: {\
-      "action": "run_command",\
-      "command": "/function timeadjust:config/preset3"\
     }\
   },\
   {\
@@ -294,10 +271,6 @@ execute if score TimeAdjust.Total TimeAdjust matches 720 run tellraw @s [\
     "clickEvent": {\
       "action": "run_command",\
       "value": "/function timeadjust:config/preset0"\
-    },\
-    click_event: {\
-      "action": "run_command",\
-      "command": "/function timeadjust:config/preset0"\
     }\
   },\
   {\
@@ -312,10 +285,6 @@ execute if score TimeAdjust.Total TimeAdjust matches 720 run tellraw @s [\
     "clickEvent": {\
       "action": "run_command",\
       "value": "/function timeadjust:config/preset1"\
-    },\
-    click_event: {\
-      "action": "run_command",\
-      "command": "/function timeadjust:config/preset1"\
     }\
   },\
   {\
@@ -340,10 +309,6 @@ execute if score TimeAdjust.Total TimeAdjust matches 720 run tellraw @s [\
     "clickEvent": {\
       "action": "run_command",\
       "value": "/function timeadjust:config/preset3"\
-    },\
-    click_event: {\
-      "action": "run_command",\
-      "command": "/function timeadjust:config/preset3"\
     }\
   },\
   {\
@@ -365,10 +330,6 @@ execute if score TimeAdjust.Total TimeAdjust matches 1440 run tellraw @s [\
     "clickEvent": {\
       "action": "run_command",\
       "value": "/function timeadjust:config/preset0"\
-    },\
-    click_event: {\
-      "action": "run_command",\
-      "command": "/function timeadjust:config/preset0"\
     }\
   },\
   {\
@@ -383,10 +344,6 @@ execute if score TimeAdjust.Total TimeAdjust matches 1440 run tellraw @s [\
     "clickEvent": {\
       "action": "run_command",\
       "value": "/function timeadjust:config/preset1"\
-    },\
-    click_event: {\
-      "action": "run_command",\
-      "command": "/function timeadjust:config/preset1"\
     }\
   },\
   {\
@@ -401,10 +358,6 @@ execute if score TimeAdjust.Total TimeAdjust matches 1440 run tellraw @s [\
     "clickEvent": {\
       "action": "run_command",\
       "value": "/function timeadjust:config/preset2"\
-    },\
-    click_event: {\
-      "action": "run_command",\
-      "command": "/function timeadjust:config/preset2"\
     }\
   },\
   {\
@@ -436,10 +389,6 @@ execute unless score TimeAdjust.Total TimeAdjust matches 20 unless score TimeAdj
     "clickEvent": {\
       "action": "run_command",\
       "value": "/function timeadjust:config/preset0"\
-    },\
-    click_event: {\
-      "action": "run_command",\
-      "command": "/function timeadjust:config/preset0"\
     }\
   },\
   {\
@@ -454,10 +403,6 @@ execute unless score TimeAdjust.Total TimeAdjust matches 20 unless score TimeAdj
     "clickEvent": {\
       "action": "run_command",\
       "value": "/function timeadjust:config/preset1"\
-    },\
-    click_event: {\
-      "action": "run_command",\
-      "command": "/function timeadjust:config/preset1"\
     }\
   },\
   {\
@@ -472,10 +417,6 @@ execute unless score TimeAdjust.Total TimeAdjust matches 20 unless score TimeAdj
     "clickEvent": {\
       "action": "run_command",\
       "value": "/function timeadjust:config/preset2"\
-    },\
-    click_event: {\
-      "action": "run_command",\
-      "command": "/function timeadjust:config/preset2"\
     }\
   },\
   {\
@@ -490,10 +431,6 @@ execute unless score TimeAdjust.Total TimeAdjust matches 20 unless score TimeAdj
     "clickEvent": {\
       "action": "run_command",\
       "value": "/function timeadjust:config/preset3"\
-    },\
-    click_event: {\
-      "action": "run_command",\
-      "command": "/function timeadjust:config/preset3"\
     }\
   },\
   {\
@@ -518,10 +455,6 @@ tellraw @s [\
     "clickEvent": {\
       "action": "run_command",\
       "value": "/function timeadjust:config/decrease5"\
-    },\
-    click_event: {\
-      "action": "run_command",\
-      "command": "/function timeadjust:config/decrease5"\
     }\
   },\
   {\
@@ -534,10 +467,6 @@ tellraw @s [\
     "clickEvent": {\
       "action": "run_command",\
       "value": "/function timeadjust:config/decrease1"\
-    },\
-    click_event: {\
-      "action": "run_command",\
-      "command": "/function timeadjust:config/decrease1"\
     }\
   },\
   {\
@@ -550,10 +479,6 @@ tellraw @s [\
     "clickEvent": {\
       "action": "suggest_command",\
       "value": "/scoreboard players set TimeAdjust.Total TimeAdjust TIME_IN_MINUTES"\
-    },\
-    click_event: {\
-      "action": "suggest_command",\
-      "command": "/scoreboard players set TimeAdjust.Total TimeAdjust TIME_IN_MINUTES"\
     }\
   },\
   {\
@@ -566,10 +491,6 @@ tellraw @s [\
     "clickEvent": {\
       "action": "run_command",\
       "value": "/function timeadjust:config/increase1"\
-    },\
-    click_event: {\
-      "action": "run_command",\
-      "command": "/function timeadjust:config/increase1"\
     }\
   },\
   {\
@@ -582,10 +503,6 @@ tellraw @s [\
     "clickEvent": {\
       "action": "run_command",\
       "value": "/function timeadjust:config/increase5"\
-    },\
-    click_event: {\
-      "action": "run_command",\
-      "command": "/function timeadjust:config/increase5"\
     }\
   },\
   {\
@@ -606,10 +523,6 @@ tellraw @s [\
     "clickEvent": {\
       "action": "run_command",\
       "value": "/function timeadjust:config/decrease60"\
-    },\
-    click_event: {\
-      "action": "run_command",\
-      "command": "/function timeadjust:config/decrease60"\
     }\
   },\
   {\
@@ -624,10 +537,6 @@ tellraw @s [\
     "clickEvent": {\
       "action": "run_command",\
       "value": "/function timeadjust:config/decrease20"\
-    },\
-    click_event: {\
-      "action": "run_command",\
-      "command": "/function timeadjust:config/decrease20"\
     }\
   },\
   {\
@@ -642,10 +551,6 @@ tellraw @s [\
     "clickEvent": {\
       "action": "suggest_command",\
       "value": "/scoreboard players set TimeAdjust.Total TimeAdjust TIME_IN_MINUTES"\
-    },\
-    click_event: {\
-      "action": "suggest_command",\
-      "command": "/scoreboard players set TimeAdjust.Total TimeAdjust TIME_IN_MINUTES"\
     }\
   },\
   {\
@@ -660,10 +565,6 @@ tellraw @s [\
     "clickEvent": {\
       "action": "run_command",\
       "value": "/function timeadjust:config/increase20"\
-    },\
-    click_event: {\
-      "action": "run_command",\
-      "command": "/function timeadjust:config/increase20"\
     }\
   },\
   {\
@@ -678,10 +579,6 @@ tellraw @s [\
     "clickEvent": {\
       "action": "run_command",\
       "value": "/function timeadjust:config/increase60"\
-    },\
-    click_event: {\
-      "action": "run_command",\
-      "command": "/function timeadjust:config/increase60"\
     }\
   },\
   {\
@@ -706,20 +603,9 @@ tellraw @s {\
       "color": "red"\
     }\
   },\
-  hover_event: {\
-    "action": "show_text",\
-    "value": {\
-      "translate": "!! WARNING !! This is irriversible!",\
-      "color": "red"\
-    }\
-  },\
   "clickEvent": {\
     "action": "run_command",\
     "value": "/function timeadjust:uninstall"\
-  },\
-  click_event: {\
-    "action": "run_command",\
-    "command": "/function timeadjust:uninstall"\
   }\
 }
 

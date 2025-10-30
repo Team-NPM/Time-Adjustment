@@ -49,20 +49,9 @@ tellraw @a [\
       "action": "suggest_command",\
       "value": "/function timeadjust:.config"\
     },\
-    click_event: {\
-      "action": "suggest_command",\
-      "command": "/function timeadjust:.config"\
-    },\
     "hoverEvent": {\
       "action": "show_text",\
       "contents": {\
-        "translate": "Click to run (must have sufficient permissions)",\
-        "color": "green"\
-      }\
-    },\
-    hover_event: {\
-      action: "show_text",\
-      value: {\
         "translate": "Click to run (must have sufficient permissions)",\
         "color": "green"\
       }\
@@ -84,20 +73,9 @@ tellraw @a [\
 "action": "suggest_command",\
 "value": "/function timeadjust:uninstall"\
     },\
-click_event: {\
-"action": "suggest_command",\
-"command": "/function timeadjust:uninstall"\
-    },\
 "hoverEvent": {\
 "action": "show_text",\
 "contents": {\
-"translate": "Click to run (must have sufficient permissions)",\
-"color": "red"\
-      }\
-    },\
-hover_event: {\
-"action": "show_text",\
-"value": {\
 "translate": "Click to run (must have sufficient permissions)",\
 "color": "red"\
       }\

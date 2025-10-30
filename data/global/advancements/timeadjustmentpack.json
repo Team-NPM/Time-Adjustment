@@ -1,16 +1,16 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:knowledge_book"
+      "id": "minecraft:clock"
     },
-    "title": "Installed Datapacks",
-    "description": "",
-    "background": "minecraft:translateures/block/gray_concrete.png",
+    "title": "Time Adjustment",
+    "description": "A simple way to control how long a day lasts in the game",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false
   },
+  "parent": "global:the_tophatman",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:tick"

@@ -33,3 +33,13 @@
 
 - Added config namespace
 - Added easy command to call upon timeadjust config (/function config:timeadjust)
+- Changed pack.png
+
+### 2.0.3
+
+- Fixed Uninstall message
+- Actually changed pack.png on the repo (not just the upload to Modrinth/Github Release)
+- Made sure that click events work in 1.21.5+
+- Added a command that allows players to see how long the daylight cycle lasts
+- Added the option for admins to stop players from seeing the day length
+- Updated for versions <1.21

@@ -35,21 +35,9 @@ tellraw @a [\
       "action": "suggest_command",\
       "value": "/datapack disable \"file/Time-Adjustement-R2.0.3.zip\""\
     },\
-    click_event: {\
-      "action": "suggest_command",\
-      "command": "/datapack disable \"file/Time-Adjustement-R2.0.3.zip\""\
-    },\
     "hoverEvent": {\
       "action": "show_text",\
       "contents": [\
-        {\
-          "translate": "Click to run (must have sufficient permissions)"\
-        }\
-      ]\
-    },\
-    hover_event: {\
-      "action": "show_text",\
-      "value": [\
         {\
           "translate": "Click to run (must have sufficient permissions)"\
         }\
