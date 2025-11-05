@@ -28,16 +28,16 @@ tellraw @a [\
     "bold": false\
   },\
   {\
-    "translate": "/datapack disable \"file/Day-Adjustment-R2.0.4.zip\"",\
+    "translate": "/datapack disable \"file/Day-Adjustment-R2.0.5.zip\"",\
     "color": "red",\
     "bold": false,\
     "clickEvent": {\
       "action": "suggest_command",\
-      "value": "/datapack disable \"file/Time-Adjustement-R2.0.4.zip\""\
+      "value": "/datapack disable \"file/Time-Adjustement-R2.0.5.zip\""\
     },\
     click_event: {\
       "action": "suggest_command",\
-      "command": "/datapack disable \"file/Time-Adjustement-R2.0.4.zip\""\
+      "command": "/datapack disable \"file/Time-Adjustement-R2.0.5.zip\""\
     },\
     "hoverEvent": {\
       "action": "show_text",\

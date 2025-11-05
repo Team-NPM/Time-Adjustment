@@ -4,11 +4,11 @@
   execute store result score #TimeAdjust TimeAdjust.DoDaylightCycle run gamerule doDaylightCycle
 
 # Set default day length. Don't update if already set
-  execute unless score TimeAdjust.Total TimeAdjust matches 1.. run scoreboard players set TimeAdjust.Total TimeAdjust 20
-  execute unless score TimeAdjust.AllowView TimeAdjust matches 0..1 run scoreboard players set TimeAdjust.AllowView TimeAdjust 1
+  scoreboard players set TimeAdjust.Total TimeAdjust 20
+  scoreboard players set TimeAdjust.AllowView TimeAdjust 1
 
 # Save version information to storage
-  data merge storage timeadjust {branch: "Release", version: "2.0.4"}
+  data merge storage timeadjust {branch: "Release", version: "2.0.5"}
 
 # Inform players of installation
 

@@ -48,3 +48,8 @@
 
 - Fixed no auto-load on version <1.21
 - Fixed no config:timeadjust on version <1.21
+
+### 2.0.5
+
+- Fixed background of advancement screen (I did a stupid back in 2.0.3)
+- Separated update and install messages
