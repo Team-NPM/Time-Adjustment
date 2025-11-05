@@ -5,7 +5,7 @@
     },
     "title": "Installed Datapacks",
     "description": "",
-    "background": "minecraft:translateures/block/gray_concrete.png",
+    "background": "minecraft:textures/block/gray_concrete.png",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,
