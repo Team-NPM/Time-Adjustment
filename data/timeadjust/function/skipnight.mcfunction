@@ -1,0 +1,1 @@
+execute as @r[nbt={SleepTimer:100s}] run time set 0
