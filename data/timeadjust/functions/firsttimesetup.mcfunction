@@ -4,8 +4,8 @@
   execute store result score #TimeAdjust TimeAdjust.DoDaylightCycle run gamerule doDaylightCycle
 
 # Set default day length. Don't update if already set
-  execute unless score TimeAdjust.Total TimeAdjust matches 1.. run scoreboard players set TimeAdjust.Total TimeAdjust 20
-  execute unless score TimeAdjust.AllowView TimeAdjust matches 0..1 run scoreboard players set TimeAdjust.AllowView TimeAdjust 1
+  scoreboard players set TimeAdjust.Total TimeAdjust 20
+  scoreboard players set TimeAdjust.AllowView TimeAdjust 1
 
 # Save version information to storage
   data merge storage timeadjust {branch: "Release", version: "2.0.5"}
@@ -49,9 +49,20 @@ tellraw @a [\
       "action": "suggest_command",\
       "value": "/function timeadjust:.config"\
     },\
+    click_event: {\
+      "action": "suggest_command",\
+      "command": "/function timeadjust:.config"\
+    },\
     "hoverEvent": {\
       "action": "show_text",\
       "contents": {\
+        "translate": "Click to run (must have sufficient permissions)",\
+        "color": "green"\
+      }\
+    },\
+    hover_event: {\
+      action: "show_text",\
+      value: {\
         "translate": "Click to run (must have sufficient permissions)",\
         "color": "green"\
       }\
@@ -73,9 +84,20 @@ tellraw @a [\
 "action": "suggest_command",\
 "value": "/function timeadjust:uninstall"\
     },\
+click_event: {\
+"action": "suggest_command",\
+"command": "/function timeadjust:uninstall"\
+    },\
 "hoverEvent": {\
 "action": "show_text",\
 "contents": {\
+"translate": "Click to run (must have sufficient permissions)",\
+"color": "red"\
+      }\
+    },\
+hover_event: {\
+"action": "show_text",\
+"value": {\
 "translate": "Click to run (must have sufficient permissions)",\
 "color": "red"\
       }\
