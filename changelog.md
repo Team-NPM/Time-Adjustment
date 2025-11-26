@@ -54,3 +54,8 @@
 - Fixed background of advancement screen (I did a stupid back in 2.0.3)
 - Separated update and install messages
 - Allow players to sleep through the night (not tested for multiplayer yet)
+
+### 2.0.6
+
+- Changed pack format to version 48 through 61
+- Fixed tellraw
