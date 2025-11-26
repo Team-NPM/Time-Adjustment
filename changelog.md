@@ -1,4 +1,6 @@
-# Release Version 1
+# Changelog
+
+## Release Version 1
 
 ### 1.0.1
 
@@ -9,7 +11,7 @@
 - Fixed version string data storage
 - Fixed name inconsistencies (Day Adjustment - Time Adjustment)
 
-# Release Version 2
+## Release Version 2
 
 ### 2.0.0
 
@@ -35,7 +37,7 @@
 - Added easy command to call upon timeadjust config (/function config:timeadjust)
 - Changed pack.png
 
-### 2.0.4
+### 2.0.3
 
 - Fixed Uninstall message
 - Actually changed pack.png on the repo (not just the upload to Modrinth/Github Release)
@@ -54,3 +56,8 @@
 - Fixed background of advancement screen (I did a stupid back in 2.0.3)
 - Separated update and install messages
 - Allow players to sleep through the night (not tested for multiplayer yet)
+
+### 2.0.6
+
+- Changed pack format to version 48 through 61
+- Fixed tellraw
