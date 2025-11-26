@@ -1,5 +1,5 @@
 
-### **RELEASE 2.0.5 HAS ONLY BEEN TESTED IN 1.21.1! OPEN AN ISSUE [HERE](https://github.com/Team-NPM/Time-Adjustment/issues) IF IT DOESN'T WORK ON ANOTHER VERSION**
+### **RELEASE 2.0.6 HAS ONLY BEEN TESTED IN 1.21.1! OPEN AN ISSUE [HERE](https://github.com/Team-NPM/Time-Adjustment/issues) IF IT DOESN'T WORK ON ANOTHER VERSION**
 
 A very simple datapack/mod that allows the player to change how long the Minecraft daylight cycle lasts. It supports daylight cycle lengths 1 minute and longer.
 
