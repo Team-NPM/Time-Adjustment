@@ -1,1 +1,0 @@
-function timeadjust:.config
