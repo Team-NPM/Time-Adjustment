@@ -1,3 +1,5 @@
 {
-  "values": ["timeadjust:load"]
+  "values": [
+    "timeadjust:load"
+  ]
 }
