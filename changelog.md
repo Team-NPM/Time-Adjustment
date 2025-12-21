@@ -61,3 +61,4 @@
 
 - Changed pack format to version 48 through 61
 - Fixed tellraw
+- 1.21.11+ ONLY | Fixed gamerule disabling

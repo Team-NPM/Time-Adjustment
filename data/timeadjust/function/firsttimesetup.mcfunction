@@ -1,7 +1,7 @@
 ## First Time Setup
 
 # Set the daylight cycle to run depending on gamerule
-execute store result score #TimeAdjust TimeAdjust.DoDaylightCycle run gamerule doDaylightCycle
+execute store result score #TimeAdjust TimeAdjust.DaylightCycle run gamerule advance_time
 
 # Set default day length. Don't update if already set
 scoreboard players set TimeAdjust.Total TimeAdjust 20

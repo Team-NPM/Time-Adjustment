@@ -1,5 +1,5 @@
 ## Boolean. Replacement for gamerule
-  scoreboard objectives add TimeAdjust.DoDaylightCycle dummy
+  scoreboard objectives add TimeAdjust.DaylightCycle dummy
 
 ## New scoreboard objective stuff
   scoreboard objectives add TimeAdjust dummy
@@ -11,4 +11,4 @@
   execute unless data storage timeadjust {branch: "Release", version: "2.0.5"} run function timeadjust:updated
 
 ## Begin ticking
-  execute if score #TimeAdjust TimeAdjust.DoDaylightCycle matches 1 run schedule function timeadjust:tick 1t replace
+  execute if score #TimeAdjust TimeAdjust.DaylightCycle matches 1 run schedule function timeadjust:tick 1t replace
