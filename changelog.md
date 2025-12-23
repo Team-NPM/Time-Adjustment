@@ -65,9 +65,7 @@
 ### 2.1.0
 
 - Fixed installation not working
-- Fixed `Default`, `12 hrs`, and `Realtime` presets not working when `40 mins` selected
 - Removed ability for players to get day length with command for performance reasons
-- Fixed version being saved to storage being 2.0.5 when the pack version was 2.0.6 (now 2.1.0)
 - Set daylight cycle to work based on previous datapack setting when uninstalling
 - Moved datapack daylight cycle setting to use TimeAdjust scoreboard objective instead of its own
 - Moved all sleep detection files to their own folder
