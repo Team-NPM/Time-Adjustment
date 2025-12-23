@@ -3,7 +3,7 @@ scoreboard players set BACKUP.TimeAdjust BACKUP.TimeAdjust 1
 execute store result score TimeAdjust.Total BACKUP.TimeAdjust run scoreboard players get TimeAdjust.Total TimeAdjust
 execute store result score TimeAdjust.Tick BACKUP.TimeAdjust run scoreboard players get TimeAdjust.Tick TimeAdjust
 execute store result score TimeAdjust.DoDaylightCycle BACKUP.TimeAdjust run scoreboard players get TimeAdjust.DoDaylightCycle TimeAdjust
-function timeadjust: removedata
+function timeadjust:removedata
 gamerule doDaylightCycle false
 tellraw @s {"translate": "To complete update (the daylight cycle has been paused for your convenience): ", "color": "white"}
 tellraw @s [{"translate": "1. Run ", "color": "white"}, {"translate": "/datapack disable \"file/Time-Adjustment_", "color": "red", "clickEvent": {"action": "suggest_command", "value": "/datapack disable \"file/Time-Adjustment_"}, "hoverEvent": {"action": "show_text", "value": {"translate": "Click to run (must have sufficient permissions)"}}}, {"translate": ", using tab completion to select the correct version", "color": "white"}]

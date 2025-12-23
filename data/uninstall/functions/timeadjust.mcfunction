@@ -1,1 +1,1 @@
-function timeadjust: uninstall
+function timeadjust:uninstall
