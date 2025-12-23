@@ -79,3 +79,8 @@
 - Removed update capabilities
 - Added backup capabilities for updating
 - Removed version information being saved to storage
+
+### 2.1.1
+
+- Fixed sleeping not skipping night
+- Fixed installed datapacks menu in advancements
