@@ -1,9 +1,9 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft: player_head", 
+      "id": "minecraft:player_head", 
       "components": {
-        "minecraft: profile": {
+        "minecraft:profile": {
           "id": [
             1906707254, 
             -884913547, 
@@ -20,10 +20,10 @@
     "announce_to_chat": false, 
     "hidden": false
   }, 
-  "parent": "global: root", 
+  "parent": "global:root", 
   "criteria": {
     "trigger": {
-      "trigger": "minecraft: tick"
+      "trigger": "minecraft:tick"
     }
   }
 }
