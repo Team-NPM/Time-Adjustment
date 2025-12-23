@@ -1,1 +1,2 @@
 execute as @r[nbt={SleepTimer: 0s}, tag=timeadjust.sleeping2] run function timeadjust:sleep/setday
+tag @r remove timeadjust.sleeping2
