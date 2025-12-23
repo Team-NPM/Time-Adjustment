@@ -79,3 +79,4 @@
 - Removed update capabilities
 - Added backup capabilities for updating
 - Removed version information being saved to storage
+- Fixed gamerule name after merge
