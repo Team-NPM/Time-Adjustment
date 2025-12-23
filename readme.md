@@ -4,11 +4,11 @@ A very simple datapack/mod that allows the player to change how long the Minecra
 
 ## Updating
 
-This datapack provides an easy command to prepare for an update and instructions on how to update. In the config menu, clicking the update datapack button or running `/function timeadjust: backup` prepares the datapack for updating and gives you a list of instructions on how to update it.
+This datapack provides an easy command to prepare for an update and instructions on how to update. In the config menu, clicking the update datapack button or running `/function timeadjust:backup` prepares the datapack for updating and gives you a list of instructions on how to update it.
 
 ## Configuration Menu
 
-![The configuration menu for time adjustment](https: //cdn.modrinth.com/data/nKLAE3s4/images/1a7e9deada87e86a3c6760c8c819bea1a0d77d19.png)The configuration menu can be accessed by running `/function timeadjust: .config` or `/function config: timeadjust`.Use the provided daylight cycle toggle in the config menu to enable/disable the daylight cycle as the gamerule WILL NOT work.
+![The configuration menu for time adjustment](https: //cdn.modrinth.com/data/nKLAE3s4/images/1a7e9deada87e86a3c6760c8c819bea1a0d77d19.png)The configuration menu can be accessed by running `/function timeadjust:.config` or `/function config: timeadjust`.Use the provided daylight cycle toggle in the config menu to enable/disable the daylight cycle as the gamerule WILL NOT work.
 There are 4 presets that let you quickly change the daylight cycle length.
 
 - Default: 20 minutes, Minecraft's default daylight cycle length
@@ -20,7 +20,7 @@ The manual adjustment allows you to quickly and easily change the cycle length. 
 
 ## Uninstalling
 
-![The menu telling you how to finish uninstalling the datapack](https: //cdn.modrinth.com/data/nKLAE3s4/images/7b3b4db6e7d2dec8d35e696d7f9ac6db5ac80d69.png)The datapack gives you an easy way to uninstall it by clicking the uninstall button in the config menu or running `/function timeadjust: uninstall`. Upon running, all stored data is removed and it tells you the final step to remove it.NOTE: The command might not list the correct version. If this is the case, use Minecraft's built-in tab completion to find and remove it.
+![The menu telling you how to finish uninstalling the datapack](https: //cdn.modrinth.com/data/nKLAE3s4/images/7b3b4db6e7d2dec8d35e696d7f9ac6db5ac80d69.png)The datapack gives you an easy way to uninstall it by clicking the uninstall button in the config menu or running `/function timeadjust:uninstall`. Upon running, all stored data is removed and it tells you the final step to remove it.NOTE: The command might not list the correct version. If this is the case, use Minecraft's built-in tab completion to find and remove it.
 
 ## Debug
 

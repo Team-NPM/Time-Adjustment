@@ -5,6 +5,6 @@
     }
   }, 
   "rewards": {
-    "function": "timeadjust: sleep/playerslept"
+    "function": "timeadjust:sleep/playerslept"
   }
 }
