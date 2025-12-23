@@ -80,3 +80,4 @@
 ### 2.1.1
 
 - Fixed sleeping not skipping night
+- Fixed installed datapacks menu in advancements
