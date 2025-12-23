@@ -1,10 +1,7 @@
 {
-  "pack":{
-    "pack_format":71,
-    "supported_formats":[71,88],
-    "min_format":71,
-    "max_format":88,
-    "description":[
+  "pack": {
+    "min_format": [94,1],
+    "description": [
       {
         "translate":"A simple way to control how long a day lasts in the game\nby ",
         "color":"white",

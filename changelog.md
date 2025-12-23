@@ -61,6 +61,7 @@
 
 - Changed pack format to version 48 through 61
 - Fixed tellraw
+- Fixed gamerule disabling
 
 ### 2.1.0
 
