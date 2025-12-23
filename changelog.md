@@ -61,4 +61,21 @@
 
 - Changed pack format to version 48 through 61
 - Fixed tellraw
-- 1.21.11+ ONLY | Fixed gamerule disabling
+- Fixed gamerule disabling
+
+### 2.1.0
+
+- Fixed installation not working
+- Fixed `Default`, `12 hrs`, and `Realtime` presets not working when `40 mins` selected
+- Removed ability for players to get day length with command for performance reasons
+- Fixed version being saved to storage being 2.0.5 when the pack version was 2.0.6 (now 2.1.0)
+- Set daylight cycle to work based on previous datapack setting when uninstalling
+- Moved datapack daylight cycle setting to use TimeAdjust scoreboard objective instead of its own
+- Moved all sleep detection files to their own folder
+- Renamed all sleep detection files for better understanding
+- Added function uninstall:timeadjust for easier uninstallation
+- Fixed uninstallation message saying `Day Adjustment` instead of `Time Adjustment`
+- Changed Twitch name to match updated name
+- Removed update capabilities
+- Added backup capabilities for updating
+- Removed version information being saved to storage
