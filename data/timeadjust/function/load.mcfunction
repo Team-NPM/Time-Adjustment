@@ -5,10 +5,10 @@ scoreboard objectives add TimeAdjust dummy
 scoreboard players set #TimeAdjust.60 TimeAdjust 60
 
 # Retreive backup data in case of update
-execute if score BACKUP.TimeAdjust BACKUP.TimeAdjust matches 1 run function timeadjust: loadbackup
+execute if score BACKUP.TimeAdjust BACKUP.TimeAdjust matches 1 run function timeadjust:loadbackup
 
 # Perform first-time installation if not previously installed
-execute unless score TimeAdjust.Total TimeAdjust matches 1.. run function timeadjust: firsttimesetup
+execute unless score TimeAdjust.Total TimeAdjust matches 1.. run function timeadjust:firsttimesetup
 
 # Begin ticking
-  execute if score TimeAdjust.DoDaylightCycle TimeAdjust matches 1 run schedule function timeadjust: tick 1t replace
+  execute if score TimeAdjust.DoDaylightCycle TimeAdjust matches 1 run schedule function timeadjust:tick 1t replace
