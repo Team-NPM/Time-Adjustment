@@ -80,3 +80,8 @@
 - Added backup capabilities for updating
 - Removed version information being saved to storage
 - Fixed gamerule name after merge
+
+### 2.1.1
+
+- Fixed sleeping not skipping night
+- Fixed installed datapacks menu in advancements
