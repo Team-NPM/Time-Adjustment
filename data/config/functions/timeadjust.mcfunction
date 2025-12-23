@@ -1,1 +1,1 @@
-function timeadjust: .config
+function timeadjust:.config
