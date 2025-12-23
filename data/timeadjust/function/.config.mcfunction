@@ -5,7 +5,7 @@
   scoreboard players operation TimeAdjust.Display.Hours TimeAdjust /= #TimeAdjust.60 TimeAdjust
 
 # Clear Chat
-  tellraw @s {text:"\n\n\n\n\n\n\n\n\n"}
+  tellraw @s {translate:"\n\n\n\n\n\n\n\n\n"}
 
 # Title Bar
   tellraw @s {translate:"■▬▬▬▬▬ Time Adjustment Configuration ▬▬▬▬▬■",bold:true,color:gold}
