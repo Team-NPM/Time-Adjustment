@@ -34,7 +34,7 @@
 ### 2.0.2
 
 - Added config namespace
-- Added easy command to call upon timeadjust config (/function config:timeadjust)
+- Added easy command to call upon timeadjust config (/function config: timeadjust)
 - Changed pack.png
 
 ### 2.0.3
@@ -49,7 +49,7 @@
 ### 2.0.4
 
 - Fixed no auto-load on version <1.21
-- Fixed no config:timeadjust on version <1.21
+- Fixed no config: timeadjust on version <1.21
 
 ### 2.0.5
 
@@ -61,3 +61,18 @@
 
 - Changed pack format to version 48 through 61
 - Fixed tellraw
+
+### 2.1.0
+
+- Fixed installation not working
+- Removed ability for players to get day length with command for performance reasons
+- Set daylight cycle to work based on previous datapack setting when uninstalling
+- Moved datapack daylight cycle setting to use TimeAdjust scoreboard objective instead of its own
+- Moved all sleep detection files to their own folder
+- Renamed all sleep detection files for better understanding
+- Added function uninstall: timeadjust for easier uninstallation
+- Fixed uninstallation message saying `Day Adjustment` instead of `Time Adjustment`
+- Changed Twitch name to match updated name
+- Removed update capabilities
+- Added backup capabilities for updating
+- Removed version information being saved to storage

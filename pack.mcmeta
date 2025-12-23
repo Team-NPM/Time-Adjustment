@@ -1,31 +1,31 @@
 {
   "pack": {
-    "pack_format": 48,
-    "supported_formats": [48, 61],
+    "pack_format": 48, 
+    "supported_formats": [48, 61], 
     "description": [
       {
-        "text": "A simple way to control how long a day lasts in the game\nby ",
-        "color": "white",
+        "text": "A simple way to control how long a day lasts in the game\nby ", 
+        "color": "white", 
         "bold": false
-      },
+      }, 
       {
-        "text": "The_TophatMan",
-        "color": "#00ff00",
+        "text": "The_TophatMan", 
+        "color": "#00ff00", 
         "bold": true
-      },
+      }, 
       {
-        "text": " (",
-        "color": "white",
+        "text": " (", 
+        "color": "white", 
         "bold": false
-      },
+      }, 
       {
-        "text": "twitch.tv/The__TophatMan",
-        "color": "#9146FF",
+        "text": "twitch.tv/The__TophatMan", 
+        "color": "#9146FF", 
         "bold": false
-      },
+      }, 
       {
-        "text": ")",
-        "color": "white",
+        "text": ")", 
+        "color": "white", 
         "bold": false
       }
     ]
