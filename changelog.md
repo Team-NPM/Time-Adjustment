@@ -85,3 +85,11 @@
 ### 2.1.2
 
 - Fixed sleeping resetting day count
+
+### 2.2.0
+
+- Fixed some formatting mismatch
+- Improved backup loading
+- Updated pack format to be the last supported version (23w14a)
+- Fixed faster cycle not working (or the datapack not working at all)
+- Replaced `translate` keys with `text` keys
