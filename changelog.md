@@ -81,3 +81,7 @@
 
 - Fixed sleeping not skipping night
 - Fixed installed datapacks menu in advancements
+
+### 2.1.2
+
+- Fixed sleeping resetting day count
