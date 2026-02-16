@@ -1,10 +1,10 @@
 ## First Time Setup
 
 # Set the daylight cycle to run depending on gamerule
-execute store result score TimeAdjust.DoDaylightCycle TimeAdjust run gamerule doDaylightCycle
+	execute store result score TimeAdjust.DoDaylightCycle TimeAdjust run gamerule doDaylightCycle
 
 # Set default day length
-scoreboard players set TimeAdjust.Total TimeAdjust 20
+	scoreboard players set TimeAdjust.Total TimeAdjust 20
 
 # Inform players of installation
 
