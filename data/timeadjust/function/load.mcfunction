@@ -7,6 +7,9 @@
 # Retreive backup data in case of update
   execute if score BACKUP.TimeAdjust BACKUP.TimeAdjust matches 1 run function timeadjust:loadbackup
 
+# Store day count
+  execute store result score TimeAdjust.Day TimeAdjust run time query day
+
 # Perform first-time installation if not previously installed
   execute unless score TimeAdjust.Total TimeAdjust matches 1.. run function timeadjust:firsttimesetup
 
