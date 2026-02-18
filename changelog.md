@@ -90,6 +90,6 @@
 
 - Fixed some formatting mismatch
 - Improved backup loading
-- Updated pack format to be the last supported version (23w14a)
+- Updated pack format to be the last supported version (<23w31a)
 - Fixed faster cycle not working (or the datapack not working at all)
 - Replaced `translate` keys with `text` keys
