@@ -3,6 +3,8 @@
 
 # The number 60 for calculating the display time in the config
   scoreboard players set #TimeAdjust.60 TimeAdjust 60
+  scoreboard players set #TimeAdjust.-1 TimeAdjust -1
+  scoreboard players set #TimeAdjust.20 TimeAdjust 20
 
 # Retreive backup data in case of update
   execute if score BACKUP.TimeAdjust BACKUP.TimeAdjust matches 1 run function timeadjust:loadbackup
@@ -14,4 +16,5 @@
   execute unless score TimeAdjust.Total TimeAdjust matches 1.. run function timeadjust:firsttimesetup
 
 # Begin ticking
+  function timeadjust:calculateticking
   execute if score TimeAdjust.DoDaylightCycle TimeAdjust matches 1 run schedule function timeadjust:tick 1t replace

@@ -90,6 +90,7 @@
 
 - Fixed some formatting mismatch
 - Improved backup loading
-- Updated pack format to be the last supported version (<23w31a)
+- Updated pack format to be the last supported version (1.20.2-1.20.6)
 - Fixed faster cycle not working (or the datapack not working at all)
 - Replaced `translate` keys with `text` keys
+- Renamed
