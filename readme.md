@@ -105,7 +105,7 @@ Join the <a href="https://discord.gg/UzQNTJ54Fa">Discord</a> and make a bug repo
 <a href="https://modrinth.com/datapack/Time-Adjustment#download">
 <img src="https://img.shields.io/modrinth/dt/time-adjustment?logo=modrinth&logoColor=%231BD96A&label=Download on Modrinth!" alt="Download on Modrinth!"></a>
 <a href="https://discord.gg/UzQNTJ54Fa"><img alt="Join the Discord" src="https://img.shields.io/discord/1270585391673507861?logo=discord&logoColor=%20%237289DA&label=Join%20the%20Discord!"></a>
-<a href=""><img alt="Report Issues" src="https://img.shields.io/github/issues-search?query=repo%3ATeam-NPM%2FTime-Adjustment%20state:open&logo=github&logoColor=%23ffffff&label=Report%20Issues"></a>
+<a href="https://github.com/Team-NPM/Time-Adjustment/issues"><img alt="Report Issues" src="https://img.shields.io/github/issues-search?query=repo%3ATeam-NPM%2FTime-Adjustment%20state:open&logo=github&logoColor=%23ffffff&label=Report%20Issues"></a>
 <a href="https://github.com/Team-NPM/Time-Adjustment">
 <img src="https://img.shields.io/github/downloads/Team-NPM/Time-Adjustment/total?logo=github&logoColor=%23ffffff&label=View the Source" alt="View the Source"></a>
 </p>
