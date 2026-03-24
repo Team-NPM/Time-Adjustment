@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<body>
-
 <h1>Time Adjustment</h1>
 
 <p>
@@ -105,8 +101,6 @@ Head to <a href="https://github.com/Team-NPM/Time-Adjustment/issues">https://git
 Join the <a href="https://discord.gg/UzQNTJ54Fa">Discord</a> and make a bug report in the correct channel. Once it's seen, a Github Issue will be created and linked.
 </details>
 <h1></h1>
-</body>
-<footer>
 <p>
 <a href="https://modrinth.com/datapack/Time-Adjustment#download">
 <img src="https://img.shields.io/modrinth/dt/time-adjustment?logo=modrinth&logoColor=%231BD96A&label=Download on Modrinth!" alt="Download on Modrinth!"></a>
@@ -115,5 +109,3 @@ Join the <a href="https://discord.gg/UzQNTJ54Fa">Discord</a> and make a bug repo
 <a href="https://github.com/Team-NPM/Time-Adjustment">
 <img src="https://img.shields.io/github/downloads/Team-NPM/Time-Adjustment/total?logo=github&logoColor=%23ffffff&label=View the Source" alt="View the Source"></a>
 </p>
-</footer>
-</html>
