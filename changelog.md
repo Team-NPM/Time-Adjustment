@@ -85,3 +85,7 @@
 
 - Fixed sleeping not skipping night
 - Fixed installed datapacks menu in advancements
+
+### 2.2.0
+
+- Removed old ticking code
