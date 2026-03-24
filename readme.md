@@ -1,9 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Time Adjustment</title>
-</head>
 <body>
 
 <h1>Time Adjustment</h1>
