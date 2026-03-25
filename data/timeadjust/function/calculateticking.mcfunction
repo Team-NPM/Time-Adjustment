@@ -1,3 +1,2 @@
-scoreboard players operation TimeAdjust.Rate TimeAdjust = TimeAdjust.Total TimeAdjust
-execute store result storage timeadjust:data rate float 1 run scoreboard players operation TimeAdjust.Rate TimeAdjust /= #TimeAdjust.20 TimeAdjust
-function timeadjust:setrate with storage timeadjust:data
+execute if score TimeAdjust.Total TimeAdjust matches 20.. run return run function timeadjust:runtime/slower
+function timeadjust:runtime/faster
