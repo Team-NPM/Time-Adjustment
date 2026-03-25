@@ -3,7 +3,7 @@
     "sleep": {
       "trigger": "minecraft:slept_in_bed"
     }
-  }, 
+  },
   "rewards": {
     "function": "timeadjust:sleep/playerslept"
   }
