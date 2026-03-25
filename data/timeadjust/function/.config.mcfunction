@@ -1,3 +1,5 @@
+execute if score TimeAdjust.Total TimeAdjust matches 2000000.. run scoreboard players set TimeAdjust.Total TimeAdjust 2000000
+
 # Calculate Time
   scoreboard players operation TimeAdjust.Display.Minutes TimeAdjust = TimeAdjust.Total TimeAdjust
   scoreboard players operation TimeAdjust.Display.Hours TimeAdjust = TimeAdjust.Total TimeAdjust
