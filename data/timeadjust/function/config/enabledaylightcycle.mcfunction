@@ -1,3 +1,3 @@
 scoreboard players set TimeAdjust.DoDaylightCycle TimeAdjust 1
-schedule function timeadjust:tick 1t replace
+gamerule advance_time true
 function timeadjust:.config
