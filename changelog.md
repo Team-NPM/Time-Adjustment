@@ -84,3 +84,10 @@
 
 - Fixed sleeping not skipping night
 - Fixed installed datapacks menu in advancements
+
+### 2.2.0
+
+- Optimized slower day logic
+- Optimized sleeping logic
+- Made it easier to set a specific time when clicking manual adjust in config
+- Changed text keys back to text
