@@ -93,3 +93,8 @@
 - Made it easier to set a specific time when clicking `manual adjust` in config
 - Changed text keys back to text
 - Overhauled readme.md
+
+### 2.2.1
+
+- Moved all logic to use 1.20.2 logic
+- Fixed misspelling of `replace`
