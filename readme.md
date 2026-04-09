@@ -14,6 +14,37 @@ A simple mod/datapack that allows the player to change how long the Minecraft da
 It supports daylight cycle lengths 1 minute and longer.
 </p>
 
+<table>
+  <tr>
+    <th>Minecraft Version</th>
+    <th>Latest Datapack Version</th>
+  </tr>
+  <tr>
+    <th>1.13-1.20.1</th>
+    <th><a href="https://modrinth.com/datapack/time-adjustment/version/2.2.0">Release 2.2.0 for 1.13</a></th>
+  </tr>
+  <tr>
+    <th>1.20.2-1.20.6</th>
+    <th><a href="https://modrinth.com/datapack/time-adjustment/version/P7Wqvuls">Release 2.2.0 for 1.20.2</a></th>
+  </tr>
+  <tr>
+    <th>1.21-1.21.4</th>
+    <th><a href="https://modrinth.com/datapack/time-adjustment/version/6CLiektm">Release 2.2.0 for 1.21</a></th>
+  </tr>
+  <tr>
+    <th>1.21.5-1.21.10</th>
+    <th><a href="https://modrinth.com/datapack/time-adjustment/version/x59ZDhmv">Release 2.2.0 for 1.21.5</a></th>
+  </tr>
+  <tr>
+    <th>1.21.11</th>
+    <th><a href="https://modrinth.com/datapack/time-adjustment/version/2.2.1">Release 2.2.1 for 1.21.11</a></th>
+  </tr>
+  <tr>
+    <th>26.1+</th>
+    <th><a href="https://modrinth.com/datapack/time-adjustment/version/VWZ7efvA">Release 2.2.0 for 26.1</a></th>
+  </tr>
+</table>
+
 <h2>🕹 Installation</h2>
 
 <p>
