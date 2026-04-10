@@ -96,7 +96,7 @@ Time Adjustment can be installed multiple ways. The simplest is through Modrinth
 When the datapack is installed, a message will appear in chat informing all users of the successful installation.
 To begin using it, run <code>/function config:timeadjust</code> or <code>/function timeadjust:.config</code> to open the configuration menu.
 </p>
-<img src="https://cdn.modrinth.com/data/nKLAE3s4/images/1a7e9deada87e86a3c6760c8c819bea1a0d77d19.png"/>
+<img src="https://cdn.modrinth.com/data/nKLAE3s4/images/1487bb51304c5e9a471771ec59f8d21cf7e8e670.png"/>
 <ul>
 <li>Day Length</li>
 <dd>The length of the day shown in hours and minutes</dd>
