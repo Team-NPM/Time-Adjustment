@@ -101,7 +101,7 @@ To begin using it, run <code>/function config:timeadjust</code> or <code>/functi
 <li>Day Length</li>
 <dd>The length of the day shown in hours and minutes</dd>
 <li>Daylight Cycle</li>
-<dd>Easily enable or disable the daylight cycle (do not use <code>/gamerule doDaylightCycle</code> or <code>/gameruld advanceTime</code> in version below 26.1)</dd>
+<dd>Easily enable or disable the daylight cycle (do not use <code>/gamerule doDaylightCycle</code> or <code>/gamerule advanceTime</code> in version below 26.1)</dd>
 <li>Presets</li>
 <dd>A set of preset daylight cycle lengths</dd>
 <li>Manual Adjust</li>
