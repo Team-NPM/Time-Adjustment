@@ -1,17 +1,8 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:player_head",
-      "components": {
-        "minecraft:profile": {
-          "id": [
-            1906707254,
-            -884913547,
-            -1392733193,
-            -1125821020
-          ]
-        }
-      }
+      "item": "minecraft:player_head",
+      "nbt": "{SkullOwner: \"The_TophatMan\"}"
     },
     "title": "Tophat Man",
     "description": "Twitch: The__TophatMan\nYoutube: The_TophatMan",
