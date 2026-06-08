@@ -1,8 +1,8 @@
-scoreboard objectives add BACKUP.TimeAdjust dummy
-scoreboard players set BACKUP.TimeAdjust BACKUP.TimeAdjust 1
-scoreboard players operation TimeAdjust.Total BACKUP.TimeAdjust = TimeAdjust.Total TimeAdjust
-scoreboard players operation TimeAdjust.Tick BACKUP.TimeAdjust = TimeAdjust.Tick TimeAdjust
-scoreboard players operation TimeAdjust.DoDaylightCycle BACKUP.TimeAdjust = TimeAdjust.DoDaylightCycle TimeAdjust
+scoreboard objectives add B.TimeAdjust dummy
+scoreboard players set B.TimeAdjust B.TimeAdjust 1
+scoreboard players operation TimeAdjust.Total B.TimeAdjust = TimeAdjust.Total TimeAdjust
+scoreboard players operation TimeAdjust.Tick B.TimeAdjust = TimeAdjust.Tick TimeAdjust
+scoreboard players operation TimeAdjust.DoDaylightCycle B.TimeAdjust = TimeAdjust.DoDaylightCycle TimeAdjust
 function timeadjust:removedata
 tellraw @s {"text": "To complete update (the daylight cycle has been paused for your convenience):"}
 tellraw @s [{"text": "1. Run ", "color": "white"}, {"text": "/datapack disable \"file/Time-Adjustment_", "color": "red", "clickEvent": {"action": "suggest_command", "value": "/datapack disable \"file/Time-Adjustment_"}, "hoverEvent": {"action": "show_text", "value": {"text": "Click to run (must have sufficient permissions)"}}}, {"text": ", using tab completion to select the correct version", "color": "white"}]
