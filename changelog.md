@@ -93,3 +93,8 @@
 - Updated pack format to be the last supported version (<23w31a)
 - Fixed faster cycle not working (or the datapack not working at all)
 - Replaced `translate` keys with `text` keys
+
+### 2.2.1
+
+- Renamed scoreboard objective `BACKUP.TimeAdjust` to `B.TimeAdjust` to fit within 16-character limit (<1.18)
+- Removed schedule clear, replace, and append commands to allow for continous functionality
